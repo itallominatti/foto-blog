@@ -14,23 +14,112 @@
   </head>
   <body>
     <div id="app">
-      <header class="container"><nav>
-        <img src="./img/camera.svg" alt="">
-        <ul>
+      <header class="container">
+        <nav>
+          <img class="logo" src="./img/camera.svg" alt="" />
+          <ul>
             <li>Home</li>
             <li class="active">galeria</li>
-        </ul>
+          </ul>
 
-        <form action="">
-            <input type="text">
-        </form>
-        <img class="avatar" src="https://randomuser.me/api/portraits/women/5.jpg" alt="imagem de uma mulher">
-      </nav>
-    </header>
+          <form action="">
+            <div class="input-wrapper">
+              <label for="search">Pesquise por imagens e coleções</label>
+              <input
+                id="search"
+                type="text"
+                placeholder="Pesquise por imagens e coleções"
+              />
+            </div>
+          </form>
+          <img
+            class="avatar"
+            src="https://randomuser.me/api/portraits/women/5.jpg"
+            alt="imagem de uma mulher"
+          />
+        </nav>
+      </header>
       <main>
-        <div class="container">main</div>
+        <div class="container">
+          <h1>Galeria</h1>
+
+          <section class="gallery">
+            <figure class="item" style="--delay: .4s">
+              <img src="https://source.unsplash.com/random?a=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="item" style="--delay: .8s">
+              <img src="https://source.unsplash.com/random?b=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1s">
+              <img src="https://source.unsplash.com/random?c=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.2s">
+              <img src="https://source.unsplash.com/random?d=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.4s">
+              <img src="https://source.unsplash.com/random?e=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.6s">
+              <img src="https://source.unsplash.com/random?f=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 1.8s">
+              <img src="https://source.unsplash.com/random?g=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="item" style="--delay: 2s">
+              <img src="https://source.unsplash.com/random?h=1" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+          </section>
+        </div>
       </main>
-      <footer class="container">© 2023 - Rocketseat Explorer</footer>
+      <footer class="container"><p>© 2023 - Rocketseat Explorer</p></footer>
     </div>
   </body>
 </html>
